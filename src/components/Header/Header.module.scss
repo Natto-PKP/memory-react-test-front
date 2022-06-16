@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    min-width: 25rem;
+    padding: 0.5rem;
+
+    .name {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      font-family: sans-serif;
+      color: black;
+    }
+
+    .button {
+      border: none;
+      background-color: transparent;
+      text-decoration: none;
+      font-family: sans-serif;
+      color: black;
+      cursor: pointer;
+    }
+  }
+}
